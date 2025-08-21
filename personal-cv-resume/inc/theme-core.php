@@ -199,9 +199,9 @@ function personal_cv_resume_scripts() {
 	
 	wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/vendors/fancybox/jquery.fancybox.css', array(), '3.5.6' );
 
-	wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/vendors/owl-carousel/animate.css', array(), '3.5.6' );
+	wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/vendors/owl-carousel/assets/animate.css', array(), '3.5.6' );
 
-	wp_enqueue_style( 'owl-animate', get_template_directory_uri() . '/vendors/owl-carousel/owl.animate.css', array(), '3.5.6' );
+	wp_enqueue_style( 'owl-animate', get_template_directory_uri() . '/vendors/owl-carousel/assets/owl.carousel.css', array(), '3.5.6' );
 
 	wp_enqueue_style( 'aos-next', get_template_directory_uri() . '/vendors/aos-next/aos.css');
 	
